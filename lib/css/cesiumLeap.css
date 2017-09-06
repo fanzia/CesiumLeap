@@ -1,0 +1,78 @@
+.cesiumLeapContainer div{
+	display: none;
+	height: 128px;
+	width: 128px;
+	position: absolute;
+}
+.cesium-leap-lookup-up{
+	background: url(../images/lookup_up.png) no-repeat;
+	right: 200px;
+	top: 100px;
+	height: 300px !important;
+}
+
+.cesium-leap-lookup-down{
+	background: url(../images/lookup_down.png) no-repeat;
+	right: 200px;
+	bottom: 100px;
+	height: 300px !important;
+}
+
+.cesium-leap-height-up{
+	background: url(../images/height_up.png) no-repeat;
+	right: 50%;
+	top: 100px;
+	margin-right: -64px;
+}
+.cesium-leap-height-down{
+	background: url(../images/height_down.png) no-repeat;
+	right: 50%;
+	bottom: 100px;
+	margin-right: -64px;
+}
+
+.cesium-leap-ew-east{
+	background: url(../images/east.png) no-repeat;
+	left: 300px;
+	top: 50%;
+	margin-top: -64px;
+}
+
+.cesium-leap-ew-west{
+	background: url(../images/west.png) no-repeat;
+	right:  300px;
+	top: 50%;
+	margin-top: -64px;			
+}
+
+.cesium-leap-ns-south{
+	background: url(../images/north.png) no-repeat;
+	left: 50%;
+	margin-left: -64px;
+	top: 260px;
+}
+
+.cesium-leap-ns-north{
+	background: url(../images/south.png) no-repeat;
+	left: 50%;
+	margin-left: -64px;
+	bottom: 260px;
+}
+
+.cesium-leap-twist-right{
+    background: url(../images/right.png) no-repeat;
+	right: 50%;
+    top: 120px;
+    width: 300px !important;
+    margin-right: -400px;
+    height: 263px !important;			
+}
+
+.cesium-leap-twist-left{
+    background: url(../images/left.png) no-repeat;
+    left: 50%;
+    top: 120px;
+    width: 300px !important;
+    margin-left: -400px;
+    height: 263px !important;		
+}
